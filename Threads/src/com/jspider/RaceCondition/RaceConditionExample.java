@@ -6,7 +6,7 @@ public class RaceConditionExample {
 	
 	public synchronized void increment()
 	{
-		x++;
+		x=x+1;
 	}
 	
 	public synchronized void decrement()
