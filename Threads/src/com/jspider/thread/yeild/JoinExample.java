@@ -20,17 +20,17 @@ public class JoinExample {
 				System.out.println("3rd thread "+ i+ " instance running");			}
 		};
 
-		Thread t = new Thread(r);
-		Thread t1 = new Thread(r1);
-		Thread t2 = new Thread(r2);
-		t.start();
 		try {
-			t.join();
+			Thread t = new Thread(r);
+			Thread t1 = new Thread(r1);
+			Thread t2 = new Thread(r2);
+			t1.start();
+			t.start();
+			t2.start();
+			t2.join();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		t1.start();
-		t2.start();
 		
 	}
 
