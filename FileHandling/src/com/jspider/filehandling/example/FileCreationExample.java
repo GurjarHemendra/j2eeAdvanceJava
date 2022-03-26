@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileCreationExample {
 	public static void main(String[] args) {
-		String path = "C:\\Users\\admin\\Desktop\\WEJM3\\hemendra.txt";
+		String path = "C:\\Users\\admin\\Desktop\\Demo\\hemendra.txt";
 		File file = new File(path);
 		if (file.exists()==true) {
 			System.out.println("file already created ");
