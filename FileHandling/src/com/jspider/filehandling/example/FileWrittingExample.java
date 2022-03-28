@@ -7,18 +7,21 @@ import java.io.IOException;
 public class FileWrittingExample {
 	
 	public static void main(String[] args) {
-		FileWriter fw=null;
-		String path="C:\\Users\\admin\\Desktop\\Demo\\hemendra.txt";
+		String path="C:\\Users\\admin\\Desktop\\Demo\\hemendra1.txt";
 		File file = new File(path);
+		
+		FileWriter fw=null;
 		String content="new data written ";
 		try {
-			fw = new FileWriter(file);
-			fw.write(content);
-			fw.flush();
-			System.out.println("file writting completed");
+			 fw = new FileWriter(file);
+			 fw.write(content);
+			 fw.flush();
+			 System.out.println("data written successfully");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		
+	
 	}
-
 }
