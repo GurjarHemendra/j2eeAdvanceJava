@@ -1,4 +1,4 @@
-package com.jspider.solidprinciple.ocp;
+ package com.jspider.solidprinciple.ocp;
 
 public class Drivver1 {
 	public static void main(String[] args) {
