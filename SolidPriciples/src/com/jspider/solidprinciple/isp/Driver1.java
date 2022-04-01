@@ -6,7 +6,7 @@ public class Driver1 {
 		
 		Hp hp = new Hp();
 		hp.scan();
-		hp.print();
+		hp.print(); 
 	}
 
 }
