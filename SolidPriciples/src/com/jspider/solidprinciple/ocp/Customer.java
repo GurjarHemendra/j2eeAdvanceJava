@@ -1,4 +1,4 @@
-package com.jspider.solidprinciple.ocp;
+ package com.jspider.solidprinciple.ocp;
 
 public abstract class Customer {
 
