@@ -1,9 +1,9 @@
-package com.jspider.first.springcore1;
+package org.jspider.spring.springcore1;
 
 public class Employee {
 	
 	private String name;
-	private String empid;
+	private String empId;
 	private double sal;
 	public String getName() {
 		return name;
@@ -11,11 +11,11 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getEmpid() {
-		return empid;
+	public String getEmpId() {
+		return empId;
 	}
-	public void setEmpid(String empid) {
-		this.empid = empid;
+	public void setEmpId(String empId) {
+		this.empId = empId;
 	}
 	public double getSal() {
 		return sal;
@@ -25,7 +25,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", empid=" + empid + ", sal=" + sal + "]";
+		return "Employee [name=" + name + ", empId=" + empId + ", sal=" + sal + "]";
 	}
 	
 	
