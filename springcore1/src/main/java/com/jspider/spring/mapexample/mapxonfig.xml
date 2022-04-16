@@ -5,10 +5,28 @@
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://www.springframework.org/schema/beans">
-	
-	<bean name="employee" class="org.jspider.spring.springcore1.Employee"  p:name="abc"
-	p:empId="INF11"  p:sal="20000.25" />
-	
-	
-	
+
+	<bean name="customer"
+		class="com.jspider.spring.mapexample.Customer" p:name="abc">
+
+		<property name="products">
+			<map>
+				<entry key="1001">
+					<value>Pendrive</value>
+				</entry>
+				
+
+				<entry key="1002" value="hardisk"></entry>
+			</map>
+
+
+
+		</property>
+
+
+
+	</bean>
+
+
+
 </beans>

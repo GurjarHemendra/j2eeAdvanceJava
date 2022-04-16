@@ -5,10 +5,26 @@
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://www.springframework.org/schema/beans">
-	
-	<bean name="employee" class="org.jspider.spring.springcore1.Employee"  p:name="abc"
-	p:empId="INF11"  p:sal="20000.25" />
-	
-	
-	
+
+
+	<bean name="car" class="com.jspider.spring.setexample.CarDealer"
+		p:name="abcd">
+
+		<property name="models">
+
+			<set>
+
+				<value>Alto</value>
+				<value>BMW</value>
+				<value>Alto</value>
+				<value>null</value>
+
+			</set>
+
+
+		</property>
+
+	</bean>
+
+
 </beans>
