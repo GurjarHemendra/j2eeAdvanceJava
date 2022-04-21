@@ -12,7 +12,7 @@ public class Addition {
 	}
 //	Addition(String a, String b)
 //	{
-//		System.out.println("String constructor");
+//		System.out.println("S tring constructor");
 //	}
 
 }
